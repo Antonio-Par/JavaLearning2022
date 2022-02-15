@@ -14,7 +14,7 @@ public class Task1 {
             System.out.println(str);
             long stopTime = System.currentTimeMillis();
             durationStr = stopTime - startTime;
-            System.out.println("Output procedure duration is " + durationStr + " ms");
+            System.out.println("Output procedure duration is " + durationStr + " ms");  // output by String
 
             for (int i = 1; i <= 20000; i++) {
                 strBld.append(" " + i);
@@ -23,7 +23,7 @@ public class Task1 {
             System.out.println(strBld.toString());
             stopTime = System.currentTimeMillis();
             durationStrBld = stopTime - startTime;
-            System.out.println("Output procedure duration is " + durationStrBld + " ms");
+            System.out.println("Output procedure duration is " + durationStrBld + " ms");   // output by StringBuilder
 
             System.out.println("Duration of StringBuilder output is " + durationStrBld + " ms versus " + durationStr + " ms of String outupt");
 

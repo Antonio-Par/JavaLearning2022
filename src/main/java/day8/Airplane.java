@@ -51,7 +51,7 @@ public class Airplane {
         this.fuel += n;
     }
 
-    public String toString() {
+    public String toString() {  // redefining method
         info();
         return "";
     }
